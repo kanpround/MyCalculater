@@ -15,8 +15,10 @@ class ViewController: UIViewController {
     var intNumber2: Int = 0
     var strNumber1 = ""
     var strNumber2: String = ""
+    var strAnswer: String = ""
+    var intAnswer: Int = 0
     
-    
+    @IBOutlet weak var ansLabel: UILabel!
     @IBOutlet weak var Num1TextField: UITextField!
     
     
@@ -33,8 +35,15 @@ class ViewController: UIViewController {
         
         intNumber1 = Int(strNumber1)!
         intNumber2 = Int(strNumber2)!
-        intNumber1 = intNumber1 + intNumber2
-        print("Answer ==>  \(intNumber1)")
+        //intNumber1 = intNumber1 + intNumber2
+        //print("Answer ==>  \(intNumber1)")
+        
+        intAnswer = intNumber1 + intNumber2
+        print("Answer ==>  \(intAnswer)")
+
+        strAnswer =  intAnswer
+      //  ansLabel = strAnswer
+        
     }   //Answer button
     
     
