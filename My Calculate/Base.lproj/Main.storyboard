@@ -58,6 +58,9 @@
                                 <color key="backgroundColor" red="0.1304978078" green="0.1178741331" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                 <state key="normal" title="Answer"/>
+                                <connections>
+                                    <action selector="AnsButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wls-HQ-Uvc"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
@@ -82,6 +85,10 @@
                             <constraint firstAttribute="trailingMargin" secondItem="Ekz-BB-NMQ" secondAttribute="trailing" constant="55" id="naN-OT-H5q"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="Num1TextField" destination="YBO-Ye-2bQ" id="OdV-ur-o8U"/>
+                        <outlet property="Num2TextField" destination="Ih3-un-qqT" id="L8d-cY-O6f"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
