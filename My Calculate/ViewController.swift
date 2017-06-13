@@ -28,10 +28,13 @@ class ViewController: UIViewController {
         //show log
         print("strNumber1 ==>  \(strNumber1)")
         print("strNumber2 ==>  \(strNumber2)")
-        //intNumber1 = convert (strNumber1)
         
-       // print("Answer ==>  \Int(strNumber1)!+Int(strNuber2)!)")
+        print("Answer ==>  \(Int(strNumber1)! + Int(strNumber2)!)")
         
+        intNumber1 = Int(strNumber1)!
+        intNumber2 = Int(strNumber2)!
+        intNumber1 = intNumber1 + intNumber2
+        print("Answer ==>  \(intNumber1)")
     }   //Answer button
     
     
