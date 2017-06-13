@@ -41,10 +41,13 @@ class ViewController: UIViewController {
         intAnswer = intNumber1 + intNumber2
         print("Answer ==>  \(intAnswer)")
 
-        strAnswer =  intAnswer
-      //  ansLabel = strAnswer
+        // change int to string
+        strAnswer = String(intAnswer)
         
-    }   //Answer button
+        // show string to label
+        ansLabel.text = strAnswer
+        
+    }   //end Answer button
     
     
     override func viewDidLoad() {       //method or function viewDidLoade()==> init every things
